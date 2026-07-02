@@ -1,0 +1,89 @@
+.empty {
+  text-align: center;
+  padding: 48px 20px;
+  color: #718096;
+}
+.emptyIcon { font-size: 40px; margin-bottom: 12px; opacity: .5; }
+.empty p { font-size: 13px; }
+
+/* ─── Base Preview ─────────────────────────────────────────────────────────── */
+.preview {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #1a1a2e;
+  font-size: 12px;
+  line-height: 1.6;
+  background: #ffffff;
+}
+
+.header { margin-bottom: 14px; }
+.name    { font-size: 22px; font-weight: 700; margin-bottom: 3px; }
+.contact { font-size: 11px; color: #4a5568; }
+.links   { font-size: 11px; color: #4f46e5; margin-top: 2px; line-height: 1.6; font-weight: 500; }
+
+.section { margin-bottom: 14px; }
+.sectionTitle {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .07em;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.bodyText { font-size: 12px; color: #4a5568; }
+.preText  { font-size: 11px; color: #4a5568; font-family: inherit; white-space: pre-wrap; word-break: break-word; }
+
+.skills { display: flex; flex-wrap: wrap; gap: 5px; }
+.skillChip {
+  padding: 2px 9px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.generatedContent { font-size: 12px; line-height: 1.7; }
+.generatedContent h1 { font-size: 20px; margin-bottom: 4px; }
+.generatedContent h2 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; margin: 14px 0 6px; padding-bottom: 3px; border-bottom: 1px solid #e2e8f0; }
+.generatedContent p  { margin-bottom: 6px; color: #4a5568; }
+.generatedContent ul { padding-left: 18px; color: #4a5568; }
+.generatedContent li { margin-bottom: 3px; }
+.generatedContent strong { color: #1a1a2e; }
+
+/* ─── Modern Template ─────────────────────────────────────────────────────── */
+.modern .name   { color: #4f46e5; }
+.modern .links  { color: #4f46e5; }
+.modern .sectionTitle { color: #4f46e5; border-color: #c7d2fe; }
+.modern .skillChip { background: #eef2ff; color: #4f46e5; }
+
+/* ─── Classic Template ─────────────────────────────────────────────────────── */
+.classic .header { border-bottom: 2px solid #1a1a2e; padding-bottom: 10px; margin-bottom: 14px; }
+.classic .name  { color: #1a1a2e; font-size: 24px; }
+.classic .links { color: #1a1a2e; }
+.classic .sectionTitle { color: #1a1a2e; border-color: #1a1a2e; }
+.classic .skillChip { background: #f1f5f9; color: #334155; border: 0.5px solid #cbd5e0; }
+
+/* ─── Minimal Template ─────────────────────────────────────────────────────── */
+.minimal .name  { font-size: 18px; font-weight: 400; letter-spacing: .12em; text-transform: uppercase; color: #2d3748; }
+.minimal .links { color: #718096; }
+.minimal .sectionTitle { font-size: 10px; color: #718096; border-bottom: 0.5px solid #e2e8f0; }
+.minimal .skillChip { background: transparent; color: #4a5568; border: 0.5px solid #cbd5e0; border-radius: 2px; }
+
+/* ─── ATS Optimal Template ────────────────────────────────────────────────── */
+.atsOptimal .name   { color: #059669; }
+.atsOptimal .links  { color: #059669; }
+.atsOptimal .sectionTitle { color: #059669; border-color: #a7f3d0; }
+.atsOptimal .skillChip { background: #ecfdf5; color: #059669; }
+
+/* ─── Technical Template ──────────────────────────────────────────────────── */
+.technical .name   { color: #0891b2; font-family: 'Courier New', monospace; }
+.technical .links  { color: #0891b2; }
+.technical .sectionTitle { color: #0891b2; border-color: #a5f3fc; font-family: 'Courier New', monospace; }
+.technical .skillChip { background: #ecfeff; color: #0891b2; border-radius: 2px; font-family: 'Courier New', monospace; }
+
+/* ─── Executive Template ──────────────────────────────────────────────────── */
+.executive .header { border-bottom: 3px double #7c3aed; padding-bottom: 12px; margin-bottom: 16px; }
+.executive .name   { color: #1a1a2e; font-size: 26px; font-weight: 800; letter-spacing: .02em; }
+.executive .links  { color: #7c3aed; }
+.executive .sectionTitle { color: #7c3aed; border-color: #ddd6fe; font-size: 12px; }
+.executive .skillChip { background: #f5f3ff; color: #7c3aed; font-weight: 600; }
