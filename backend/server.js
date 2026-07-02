@@ -57,7 +57,8 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 
-app.get('/api/health', (req, res) => res.json({ status: 'OK', timestamp: new Date() }));
+// app.get('/api/health', (req, res) => res.json({ status: 'OK', timestamp: new Date() }));
+app.get('/health', (req, res) => res.json({ status: 'ok', message: 'Backend is running!' }));
 
 app.use('/api/auth', authRoutes);
 app.use('/api/ai', aiRoutes);
