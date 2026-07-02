@@ -2,7 +2,7 @@
 
 A full-stack MERN application with AI-powered resume generation, live preview, PDF export, chat assistant, and admin dashboard — powered by **Groq AI**.
 
-![Tech Stack](https://img.shields.io/badge/Stack-MERN-61DAFB?style=flat-square) ![AI](https://img.shields.io/badge/AI-Groq%20LLaMA%203-orange?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+<!-- ![Tech Stack](https://img.shields.io/badge/Stack-MERN-61DAFB?style=flat-square) ![AI](https://img.shields.io/badge/AI-Groq%20LLaMA%203-orange?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square) -->
 
 ---
 
